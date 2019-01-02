@@ -1,0 +1,310 @@
+body
+{
+	background-color: #acd6f1;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin: 0px;
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.in
+{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.header{
+	background-image: url(img/head.jpg);
+	height: 61px;
+}
+
+a
+{
+	color: #1d2930;
+}
+
+
+a:hover
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.header a.first{
+	padding-left: 80px;
+}
+
+.header a{
+	position: relative;
+	top: -5px;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 60px;
+	font-weight: bold;
+}
+
+.login-in
+{
+	width: 430px;
+	margin: 0 auto;
+
+}
+
+.login-head
+ {
+	background-image: url(img/loginbox-head.jpg);	
+	width: 430px;
+	height: 213px;
+}
+
+.login-head p
+{
+	margin: 0px;
+	padding: 0px;
+	padding: 165px 35px 10px 35px;
+	color: #5f7186;
+}
+
+.login-body
+ {
+	background-image: url(img/loginbox-body.jpg);	
+	width: 430px;
+	height: 144px;
+}
+
+.login-body table
+{
+	padding: 20px 30px 0px 30px;
+}
+.login-body th
+{
+	background-image: url(img/loginbox-label.jpg);
+	width: 88px;
+	height: 40px;
+	text-align: left;
+	text-indent: 15px;
+	color: white;
+	background-repeat: no-repeat;
+}
+.login-body .input
+{
+	width: 250px;
+	height: 36px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.login-body .button
+{
+	width: 177px;
+	height: 57px;
+	background-image: url(img/loginbox-button.jpg);
+	border: 0px;
+	background-color: transparent;
+	cursor:pointer;
+	margin-top: 5px;
+}
+.login-body .button:hover
+{
+	background-image: url(img/loginbox-button-hov.jpg);
+}
+div.box
+{
+	background-color: #ffffff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.box p{
+	padding: 20px;
+}
+
+.markgroup{
+	float: left;
+	width: 40px;
+	height: 25px;
+	background-color: #f5f5f5;
+	border-right: 1px solid #cccccc;
+	margin: 1px;
+	padding: 2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center
+}
+
+.markgroup-big{
+	float: left;
+	width: 60px;
+	height: 25px;
+	background-color: #f5f5f5;
+	border-right: 1px solid #cccccc;
+	margin: 3px;
+	padding: 6px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center
+}
+
+.mark{
+	color: #222;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.nova
+{
+	border-right: 1px solid #ffcccc;
+	background-color: #ffdddd;
+}
+
+.nova .mark{
+	color: red;
+}
+
+
+.nova .weight{
+	color: #bb9999;
+}
+
+.skryta
+{
+	border-right: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+.skryta .mark{
+	color: #888888;
+}
+
+
+.skryta .weight{
+	color: #aaaaaa;
+}
+
+
+.blue
+{
+	border-right: 1px solid #ccccbb;
+	background-color: #ddddff;
+}
+
+.blue .mark{
+	color: blue;
+}
+
+
+.blue .weight{
+	color: #9999bb;
+}
+
+.weight{
+	color: #999999;
+	font-size: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+h2{
+	margin: 10px;
+	padding: 0px;
+	font-family: Tahoma;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 5px;
+	color: #29476a;
+}
+
+h1{
+	
+	margin: 20px;
+	padding: 0px;
+	font-family: Tahoma;
+	font-size: 23px;
+	font-weight: normal;
+	padding-top: 5px;
+	color: #29476a;
+}
+
+table.box{
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+.filled{
+	border-bottom: 3px solid #acd6f1;
+	border-top: 3px solid #acd6f1;
+	background-color: #ffffff;
+}
+.average{
+	border-bottom: 3px solid #acd6f1;
+	border-top: 3px solid #acd6f1;
+	border-right: 1px dashed #bbbbbb;
+	background-color: #ffffff;
+	padding: 0px 15px 0px 10px;
+	color: #777777;
+	font-weight: bold;
+	font-size: 19px;
+	font-family: Arial;
+}
+
+.timetable{
+	width: 650px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+abbr{
+	border-bottom: 1px dotted #333333;
+}
+
+.prumer-velky{
+	line-height: 100px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 60px;
+	font-weight: normal;
+	color: #777777;
+}
+
+.zamtable{
+	margin: 10px;
+	border: 1px solid #cccccc;
+}
+
+.zamtable td{
+	padding: 14px;
+}
+
+.zamhlava
+{
+	font-weight: bold;
+}
+
+.omltabf{
+	margin: 10px;
+	border: 1px solid #cccccc;
+}
+
+.omltabf td{
+	padding: 8px;
+}
+
+.omltabe{
+	font-weight: bold;
+}

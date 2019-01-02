@@ -1,0 +1,288 @@
+.rozbunka {
+font-size:10px;
+width:800px;
+table-layout:fixed;
+border-collapse:collapse;
+border-width:1px;
+border-style:solid;
+}
+
+.rozbunka td {
+ text-align :center;
+ vertical-align:middle;
+}
+
+.roznumhod {
+font-size:10px;
+font-weight:bold;
+}
+
+.rozpopishod {
+font-size:8px;
+font-weight:normal;
+margin:0px;
+padding:0px;
+}
+
+.rozden {
+font-size:10px;
+font-weight:bold;
+height:65px;
+}
+
+.rozpredmet1 {
+font-size:14px;
+font-weight:bold;
+border-left-style:solid;
+border-left-width:1px;
+border-top-style:solid;
+border-top-width:1px;
+margin:0px;
+padding:0px;
+vertical-align:middle;
+height:100%;
+
+}
+
+.rozpredmet1div {
+vertical-align:middle;
+height:100%;
+width:100%;
+text-align:center;
+}
+
+
+.rozpredmet1div a 
+{
+ text-decoration:none;
+}
+
+.rozpredmet1div a:hover {
+ text-decoration :underline;
+}
+
+.rozpredmet1div a:visited {
+ text-decoration :none;
+}
+
+.rozpredmet1div a:link {
+ text-decoration :none;
+}
+
+
+
+.rozpredmet1zm {
+font-size:14px;
+font-weight:bold;
+border-left-style:solid;
+border-left-width:1px;
+border-top-style:solid;
+border-top-width:1px;
+margin:0px;
+padding:0px;
+vertical-align:middle;
+}
+
+.rozpredmet1zmdiv {
+vertical-align:middle;
+}
+
+
+.rozpredmetprazdny {
+font-size:14px;
+font-weight:bold;
+border-left-style:solid;
+border-left-width:1px;
+border-top-style:solid;
+border-top-width:1px;
+margin:0px;
+padding:0px;
+vertical-align:middle;
+}
+
+.rozucitel1 {
+font-size:12px;
+font-style:italic;
+font-weight:bold;
+border-left-style:solid;
+border-left-width:1px;
+}
+
+.rozucitel1zm {
+font-size:12px;
+font-style:italic;
+font-weight:bold;
+border-left-style:solid;
+border-left-width:1px;
+}
+
+.rozskupina1 {
+font-size:9px;
+font-weight:normal;
+border-left-style:solid;
+border-left-width:1px;
+}
+
+.rozskupina1zm {
+font-size:9px;
+font-weight:normal;
+border-left-style:solid;
+border-left-width:1px;
+}
+
+
+.rozmistnost1 {
+font-size:9px;
+font-weight:normal;
+font-style:italic;
+}
+
+
+.rozmistnost1zm {
+font-size:9px;
+font-weight:normal;
+font-style:italic;
+}
+
+
+.rozmistnost1only {
+border-left-style:solid;
+border-left-width:1px;
+font-size:9px;
+font-weight:normal;
+font-style:italic;
+}
+
+.rozmistnost1onlyzm {
+border-left-style:solid;
+border-left-width:1px;
+font-size:9px;
+font-weight:normal;
+font-style:italic;
+}
+
+
+.rozpredmet1abs {
+font-size:14px;
+font-weight:bold;
+border-left-style:solid;
+border-left-width:1px;
+border-top-style:solid;
+border-top-width:1px;
+margin:0px;
+padding:0px;
+}
+
+.rozucitel1abs {
+font-size:12px;
+font-style:italic;
+font-weight:bold;
+border-left-style:solid;
+border-left-width:1px;
+}
+
+.rozskupina1abs {
+font-size:9px;
+font-weight:normal;
+border-left-style:solid;
+border-left-width:1px;
+}
+
+.rozmistnost1abs {
+font-size:9px;
+font-weight:normal;
+font-style:italic;
+}
+
+.rozmistnost1onlyabs {
+border-left-style:solid;
+border-left-width:1px;
+font-size:9px;
+font-weight:normal;
+font-style:italic;
+}
+
+.rozpredmet2 {
+font-size:11px;
+font-weight:bold;
+border-top-style:solid;
+border-top-width:1px;
+margin:0px;
+padding:0px;
+}
+
+.rozpredmet2prvni {
+font-size:11px;
+font-weight:bold;
+margin:0px;
+padding:0px;
+}
+
+.rozucitel2 {
+font-size:8px;
+font-style:italic;
+font-weight:bold;
+}
+
+.rozskupina2 {
+font-size:8px;
+font-weight:normal;
+}
+
+.rozmistnost2 {
+font-size:8px;
+font-weight:normal;
+font-style:italic;
+}
+
+.rozmistnost2only {
+font-size:8px;
+font-weight:normal;
+font-style:italic;
+}
+
+.rozbunka2 {
+font-size:8px;
+border-collapse:collapse;
+border-width:1px;
+padding:0;
+margin:0;
+height:65px;
+vertical-align:middle;
+}
+
+.rozseznampred {
+font-size:13px;
+font-weight:normal;
+padding-left:10px;
+padding-right:10px;
+}
+
+.rozseznampred td {
+padding:3px;
+text-align:left;
+}
+
+.rozseznamucit {
+font-size:13px;
+font-weight:normal;
+padding-left:10px;
+padding-right:10px;
+}
+
+.rozseznamhlava {
+font-size:11px;
+font-weight:bold;
+border-width:1px;
+border-style:solid;
+
+}
+
+.rozseznamhlava td {
+padding:4px;
+text-align:left;
+}
+
+td.rozpredmet1zm, td.rozucitel1zm, td.rozskupina1zm, td.rozmistnost1zm{
+	background-color: #ccddff;
+}
